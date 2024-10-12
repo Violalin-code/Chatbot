@@ -1,3 +1,5 @@
 gradio
-transformers[sentencepiece]
+transformers
 torch
+requests
+urllib3
