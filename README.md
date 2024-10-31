@@ -5,6 +5,8 @@ OVERVIEW
 This project implements a simple customer service chatbot using Gradio and Hugging Face's Transformers. 
 The chatbot is designed to answer common customer inquiries with predefined responses or, when needed, generate custom responses using a pre-trained DialoGPT-medium model.
 
+ML Model: Causal Language Model. DialoGPT is fine-tuned for generating human-like responses in a conversational context. The model is loaded using the transformers library, which provides easy access to pre-trained models and tokenizers for various natural language processing tasks.
+
 FEATURES
 
 Predefined answers for frequently asked questions (FAQs).
